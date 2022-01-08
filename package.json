@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "dev": "vite serve public/",
-    "build": "vite build",
+    "build": "vite build public/",
     "preview": "vite preview"
   },
   "devDependencies": {
