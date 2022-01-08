@@ -1,4 +1,4 @@
-@import url('//fonts.googleapis.com/css?family=EB+Garamond');
+@import url('//fonts.googleapis.com/css?family=EB+Garamond|Playfair+Display');
 
 html, body {
     margin: 0;
@@ -6,14 +6,21 @@ html, body {
 }
 
 body {
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', 'Times New Roman', serif;
     background-color: black;
     color: white;
+}
+h1,h2,h3 {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
 a {
     text-decoration: none;
     color: white;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', 'Times New Roman', serif;
 }
 
 .header {
@@ -31,15 +38,18 @@ a {
 .value-prop {
     height: 80vh;
     align-items: center;
-    .col-6 {
-        text-align: center;
+    text-align: center;
+    .expand-icon {
+        width: 50px;
+        margin: 0 auto;
     }
 }
 
 .featured-work {
     text-align: center;
-    padding-bottom: 10vh 0;
+    padding-bottom: 10vh;
     h4 {
+        font-family: 'Playfair Display', 'Times New Roman', serif;
         padding: 30px 0;
     }
     .main-project {
@@ -73,7 +83,8 @@ a {
     align-content: center;
     height: 90vh;
     h1, h4, p {
-        padding-left: 10vw;
+        padding: 0 10vw;
+        width: 60vw;
     }
     p {
         margin-top: 10vh;
@@ -84,10 +95,51 @@ a {
     text-align: center;
     height: 60vh;
     align-content: center;
+    h1 {
+        padding-bottom: 20px;;
+    }
+}
+
+.footer {
+    margin: 0;
+    padding: 5vh 0;
+    .right {
+        text-align: right;
+    }
+}
+
+.project-archive {
+    padding-bottom: 15vh;
+    table {
+        color: white;
+        tr {
+            td {
+                padding-top: 30px;
+                color: white;
+            }
+        }
+        tr.clickable:hover {
+            td {
+                color: #ddd;
+                cursor: pointer;
+            }
+        }
+    }
 }
 
 @media (max-width: 768px) {
     .gutter {
         height: 10vh;
+    }
+    .footer {
+        .right {
+            text-align: left;
+        }
+    }
+    .about {
+        h1, h4, p {
+            padding: 0 10vw;
+            width: 100%;
+        }
     }
 }
