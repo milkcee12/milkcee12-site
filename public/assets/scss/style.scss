@@ -1,3 +1,4 @@
+@import "bootstrap/scss/bootstrap";
 @import url('//fonts.googleapis.com/css?family=EB+Garamond|Playfair+Display');
 
 html, body {
@@ -25,16 +26,16 @@ a:hover {
 ::selection {
     background: #00b18a;
   }
-  ::-moz-selection {
+
+::-moz-selection {
     background: #00b18a;
-  }
+}
 
 .navbar {
-    li a {
-        color: white;
-    }
-    li a:hover {
-        color: #ddd;
+    background-color: black;
+    button:focus {
+        outline: none;
+        box-shadow: 0 0 2px 2px;
     }
 }
 
@@ -147,12 +148,15 @@ a:hover {
 }
 
 .about-page {
-    height: 90vh;
+    min-height: 90vh;
     align-content: center;
     img.profile-pic {
         background-color: #ddd;
         height: 430px;
         width: 100%;
+    }
+    .gutter {
+        width: 0;
     }
 }
 

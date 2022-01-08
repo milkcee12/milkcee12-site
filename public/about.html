@@ -8,20 +8,25 @@
     <title>Milkcee Studios | About</title>
   </head>
   <body>
-    <div class="navbar navbar-expand-sm">
+    <div class="navbar navbar-dark navbar-expand-md">
       <div class="container">
-        <a class="navbar-brand" href="index.html">Michaela Chang</a>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="projects/">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+        <a class="navbar-brand d-flex flex-grow-1" href="index.html">Michaela Chang</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbartoggle" aria-controls="navbartoggle" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-1 text-right" id="navbartoggle">
+            <ul class="navbar-nav ms-auto flex-nowrap">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects/">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
       </div>
     </div>
 
@@ -30,6 +35,7 @@
         <div class="col-md-6">
             <img class="profile-pic" src="#">
         </div>
+        <span class="gutter"></span>
         <div class="col-md-5">
           <h2>Hi, I'm Michaela, a concept artist and developer for entertainment.</h2> <br>
           <h5>I love telling stories. Whether that's done through building fantasy worlds or creating an immersive user experience, my everyday dream is to create heartfelt stories with dedicated people. <br><br>I'm currently attending University of Southern California as a computer science major and a 3-D animation minor, set to graduate in 2025.</h5><br>

@@ -8,7 +8,8 @@ module.exports = defineConfig({
       rollupOptions: {
           input: {
               main: resolve(__dirname, 'public/index.html'),
-              projects: resolve(__dirname, 'public/projects/index.html')
+              projects: resolve(__dirname, 'public/projects/index.html'),
+              about: resolve(__dirname, 'public/about.html')
           }
       }
     }
