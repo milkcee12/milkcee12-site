@@ -18,6 +18,25 @@ a {
     text-decoration: none;
     color: white;
 }
+a:hover {
+    color: #ddd;
+}
+
+::selection {
+    background: #00b18a;
+  }
+  ::-moz-selection {
+    background: #00b18a;
+  }
+
+.navbar {
+    li a {
+        color: white;
+    }
+    li a:hover {
+        color: #ddd;
+    }
+}
 
 .navbar-brand {
     font-family: 'Playfair Display', 'Times New Roman', serif;
@@ -124,6 +143,16 @@ a {
                 cursor: pointer;
             }
         }
+    }
+}
+
+.about-page {
+    height: 90vh;
+    align-content: center;
+    img.profile-pic {
+        background-color: #ddd;
+        height: 430px;
+        width: 100%;
     }
 }
 
