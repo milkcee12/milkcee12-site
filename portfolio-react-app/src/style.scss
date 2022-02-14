@@ -1,0 +1,19 @@
+@import "bootstrap/scss/bootstrap.scss";
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.Navigation {
+    .navbar {
+        background-color: black !important; 
+    }
+}
+
+.Section {
+    &.center {
+        justify-content: center;
+        text-align: center;
+    }
+}
