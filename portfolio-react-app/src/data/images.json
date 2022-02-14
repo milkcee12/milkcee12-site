@@ -1,0 +1,16 @@
+{
+    "work": [
+        {
+            "title": "Item1",
+            "date": 2022,
+            "caption": "I am cool",
+            "imgUrl": "path/to/file"
+        },
+        {
+            "title": "Item2",
+            "date": 2022,
+            "caption": "I am cool",
+            "imgUrl": "path/to/file"
+        }
+    ]
+}
